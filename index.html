@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="app.js" defer></script>
+    <title>Rock-Paper-Scissors</title>
 </head>
 <body>
-    
-    <script src="app.js"></script>
+    <div class="container">
+        <div id="game-winner"></div>
+        <button id="restart-button">Restart</button>
+        <div class="row-one">        
+            <button id="btn-rock">Rock</button>
+            <button id="btn-paper">Paper</button>
+            <button id="btn-scissors">Scissors</button></div>
+        <div class="row-two">
+            <div id="winner"></div>
+        </div>
+        <div class="points-section">
+            <div>Player Points: <span id="player-points">0</span></div>
+            <div>Computer Points: <span id="computer-points">0</span></div>
+        </div>    
+    </div>
 </body>
 </html>
